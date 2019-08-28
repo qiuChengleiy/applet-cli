@@ -1,0 +1,107 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/login/index",
+      "pages/ad/index",
+      "pages/add-customer/index",
+      "pages/customer-search-repeat/index",
+      "pages/log-create/index",
+      "pages/ad-create/index",
+      "pages/contract-create/index",
+      "pages/ad-player-create/index",
+      "pages/invoce-create/index",
+      "pages/adsense-choose/index",
+      "pages/customer/index",
+      "pages/customer-public/index",
+      "pages/customer-change/index",
+      "pages/ask-reason/index",
+      "pages/log/index",
+      "pages/log-detail/index",
+      "pages/contract/index",
+      "pages/ad-book/index",
+      "pages/ad-index/index",
+      "pages/invoce/index",
+      "pages/repay/index",
+      "pages/receivable/index",
+      "pages/approve/index",
+      "pages/customer-detail/index",
+      "pages/add-contacts/index",
+      "pages/contract-detail/index",
+      "pages/choose-customer/index",
+      "pages/choose-contracts/index",
+      "pages/approve-action/index",
+      "pages/ad-detail/index",
+      "pages/ad-book-to-player/index",
+      "pages/signed/index",
+      "pages/ad-cate-choose/index",
+      "pages/choose-sale/index",
+      "pages/signed-approve/index",
+      "pages/signed-history-detail/index",
+      "pages/signed-discussion/index",
+      "pages/ad-player-detail/index",
+      "pages/canvas/index",
+      "pages/developing/index",
+      "pages/daiban/index",
+      "pages/create-daily/index",
+      "pages/daily/index",
+      "pages/daily-detail/index",
+      "pages/daily-nowritten/index",
+      "pages/charts/index",
+      "pages/check-work/index",
+      "pages/check-work-statistics/index",
+      "pages/field-visits/index",
+      "pages/fields-visit-backup/index",
+      "pages/work-dynamics/index",
+      "pages/work-dynamics-index/index",
+      "pages/draft/index",
+      "pages/work-dynamics-detail/index",
+      "pages/qiandao-zuji/index",
+      "pages/visits-analysis/index",
+      "pages/caiwu-analysis/index",
+      "pages/huikuan-plan/index"
+    ],
+    "subPackages": [
+      {
+        "root": "package-v2/",
+        "pages": [
+          "pages/receivable/index"
+        ]
+      }
+    ],
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+      }
+    },
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#FF5650",
+      "navigationBarTitleText": "WeChat",
+      "navigationBarTextStyle": "white",
+      "enablePullDownRefresh": false,
+      "navigationStyle": "default"
+    },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/field-visits/index"
+        },
+        {
+          "pagePath": "pages/draft/index"
+        },
+        {
+          "pagePath": "pages/work-dynamics/index"
+        }
+      ]
+    },
+    "networkTimeout": {
+      "request": 9180
+    },
+    "plugins": {
+      "WechatSI": {
+        "version": "0.2.3",
+        "provider": "wx069ba97219f66d99"
+      }
+    },
+    "sitemapLocation": "sitemap.json"
+  }

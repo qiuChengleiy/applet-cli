@@ -1,0 +1,8 @@
+{
+    "enablePullDownRefresh": false,
+    "navigationBarTitleText": "Title",
+    "usingComponents": {
+      "i-message": "../../components/message/index",
+      "wux-toast": "../../dist/toast/index"
+    }
+  }

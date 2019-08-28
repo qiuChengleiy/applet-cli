@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+'use strict';
+
+require('../lib/applet-cli').run(process.argv.splice(2))

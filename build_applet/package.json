@@ -1,0 +1,17 @@
+{
+  "name": "qiuchenglei",
+  "version": "1.0.0",
+  "description": "applet auto script",
+  "main": "index.js",
+  "repository": "http://hjgit.shangxiaban.cn/jiangtao/crm_applet.git",
+  "author": "qiuChengleiy <qcl9701s666@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "wx:page-t": "node app.js --p --test",
+    "wx:comp-t": "node app.js --c --test",
+    "wx:temp-t": "node app.js --t --test",
+    "wx:page": "node app.js --p --pro",
+    "wx:comp": "node app.js --c --pro",
+    "wx:temp": "node app.js --t --pro"
+  }
+}

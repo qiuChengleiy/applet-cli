@@ -1,0 +1,24 @@
+{
+  "name": "applet-cli",
+  "version": "1.0.0",
+  "description": "a util of applet-cli",
+  "main": "index.js",
+  "bin": {
+    "applet-cli": "./bin/applet-cli"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [
+    "applet",
+    "test",
+    "cli",
+    "nodejs"
+  ],
+  "author": "qiuchenglei",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "miniprogram-automator": "^0.5.8"
+  }
+}

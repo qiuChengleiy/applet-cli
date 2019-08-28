@@ -1,0 +1,19 @@
+<!-- wxml模板 -->
+<!-- <import src="pathname/index.wxml" /> 导入-->
+<!-- <template is="temp-name" data="{{}}"/> 应用-->
+<!-- 第三方组件 -->
+<wux-toast id="wux-toast" />
+<i-message id="message" />
+ 
+<!-- page start -->
+<view class='container'>
+    
+</view>
+
+
+
+
+
+
+
+

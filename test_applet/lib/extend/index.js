@@ -1,0 +1,1 @@
+exports.automator = require('./automator')
